@@ -1,4 +1,4 @@
-#include <stdio.h>
+//#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -91,7 +91,7 @@ int kuyruktanElemanCikarma(int *sira){
 	    scanf("%d",&cikartilacakUcus);
 	}
 	if(ilk==NULL){
-	  printf("Kuyruk bos . islem gerçeklestirilemedi\n");
+	  printf("Kuyruk bos . islem gerÃ§eklestirilemedi\n");
 	}
 	else {
 	struct dugum  *gecici=ilk;
